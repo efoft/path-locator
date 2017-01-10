@@ -1,5 +1,6 @@
 <?php
 namespace PathLocator;
+
 /**
  * Determines site root and base url and supplies convertion
  * of the pathes and URLs. DOES NOT support Server Aliases.
@@ -15,8 +16,8 @@ namespace PathLocator;
  * - public function convertPathToURL($path)
  * - public function getSelfURL()
  */
-class Locator {
-
+class Locator
+{
   // see __construct() for explanation
   private $rootpath;
   private $basedir;
